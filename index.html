@@ -29,7 +29,47 @@
 
         <label for="pwd">Password</label> <br>
         <input type="password" name="pwd" id="pwd" minlength="3" maxlength="10" required><br>
+        
+
+        <label for="url">Website: </label><br>
+        <input type="url" name="url" id="url"><br>
+      
+        <label for="cb">Choose Admission Preference</label><br>
+        <input type="checkbox" name="bsse" id="bsse" value="bsse"> BS Software Engineering<br>
+        <input type="checkbox" name="bsds" id="bsds" value="bsds">BS Data Science<br>
+        <input type="checkbox" name="bscs" id="bscs" value="bscs" checked>BS Computer Science<br>
+
+        <br>
+        <label for="login">You are logging in from: </label><br>
+        <input type="radio" name="n" value="office"> Office <br>
+        <input type="radio" name="n" value="home"> Home <br> 
+        <input type="radio" name="n" value="other"> Other <br>
+
+        <br>
+        <label for="comment">Your Comments: </label><br>
+        <textarea name="comment" id="comment" cols="50" rows="5"></textarea><br>
+
+        <label for="favBrowser">Select your favorite browser: </label><br>
+        <select multiple size = "5" name="favBrowser" id="favBrowser">
+            <option value="">--Select--</option>
+            <option value="firefox">Firefox</option>
+            <option value="chrome">Google CHrome</option>
+            <option value="edge">Microsoft Edge</option>
+            <option value="vivladi">Vivladi</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <input type="submit" value="Send Data" id="submit" name="submit"><br>
     </form>
+    <br>    
+<!--
+    <form action="https://www.google.com/search?">
+        <input type="text" name="q" id="q"><br>
+        
+    </form>
+-->
 </body>
 </html>
